@@ -1,0 +1,88 @@
+/* CodeEditor.css */
+.editor-container {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .ace-editor {
+    border-radius: 6px;
+    border: 1px solid #333;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  
+  .action-button {
+    background-color: #2e2e2e;
+    color: #fff;
+    border: 1px solid #444;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-size: 0.9rem;
+  }
+  
+  .action-button:hover {
+    background-color: #444;
+  }
+  
+  .run-button {
+    background-color: rgb(129, 128, 126);
+    color: white;
+  }
+  
+  .submit-button {
+    background-color: #f8ac1e;
+    color: white;
+  }
+  
+  .solution-button {
+    background-color: #27ae60;
+    color: white;
+  }
+  
+  .reset-button {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .output-container {
+    margin-top: 20px;
+  }
+  
+  .output-title {
+    font-size: 1.2rem;
+    color: #f39c12;
+    margin-bottom: 10px;
+  }
+  
+  .output-content {
+    background-color: #2e2e2e;
+    color: #f39c12;
+    padding: 10px;
+    border-radius: px;
+    height: 250px;
+    overflow-y: auto;
+    font-family: monospace;
+  }
+  
+  .iframe-output {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  
+  .backend-output {
+    color: #f39c12;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  

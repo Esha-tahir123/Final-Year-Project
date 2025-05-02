@@ -1,0 +1,64 @@
+/* LevelSelection.css */
+.level-selection-container {
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    padding: 2rem;
+  }
+  
+  .level-selection-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #ff6f00;
+  }
+  
+  .level-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .level-button {
+    background-color: #ff6f00;
+    color: white;
+    border: none;
+    padding: 0.7rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .level-button:hover {
+    background-color: #e65c00;
+  }
+  /* Responsive Utility Classes */
+@media (max-width: 768px) {
+  .text-base {
+    font-size: 0.875rem; /* 14px */
+  }
+  .sm\:text-lg {
+    font-size: 1rem; /* 16px */
+  }
+}
+
+@media (max-width: 640px) {
+  .sm\:text-xl {
+    font-size: 1.25rem; /* 20px */
+  }
+  .text-3xl {
+    font-size: 1.5rem; /* Adjust header */
+  }
+}
+
+/* Card Adjustments */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 640px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

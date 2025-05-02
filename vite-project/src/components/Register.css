@@ -1,0 +1,46 @@
+/* Register.css */
+
+.min-h-screen {
+    min-height: 100vh;
+  }
+  
+  .bg-gray-900 {
+    background-color: #1a202c; /* Tailwind gray-900 */
+  }
+  
+  .glass-effect {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .animate-fade-in {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  .gradient-orange {
+    background: linear-gradient(to right, #f97316, #c2410c); /* Tailwind orange-500 to orange-800 */
+    background-size: 200% 200%;
+    transition: background-position 0.5s;
+  }
+  
+  .gradient-orange:hover {
+    background-position: right center;
+  }
+  
+  .glass-effect input {
+    background-color: rgba(55, 65, 81, 0.5); /* Tailwind gray-700 with opacity */
+  }
+  

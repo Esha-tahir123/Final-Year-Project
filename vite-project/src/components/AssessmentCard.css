@@ -1,0 +1,55 @@
+.card {
+    background-color: #2e2e2e;
+    border: 1px solid #444;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    color: #ff9800;
+    margin-bottom: 10px;
+  }
+  
+  .card-score {
+    font-size: 1.2rem;
+    color: #4caf50;
+    margin-bottom: 10px;
+  }
+  
+  .card-errors, .card-suggestions, .card-resources {
+    margin-top: 10px;
+  }
+  
+  .card-errors h4, .card-suggestions h4, .card-resources h4 {
+    font-size: 1.2rem;
+    color: #e91e63;
+    margin-bottom: 5px;
+  }
+  
+  .card-errors ul, .card-suggestions ul, .card-resources ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #ddd;
+  }
+  
+  .card-errors li, .card-suggestions li, .card-resources li {
+    margin: 5px 0;
+  }
+  
+  .card-resources a {
+    color: #2196f3;
+    text-decoration: none;
+  }
+  
+  .card-resources a:hover {
+    text-decoration: underline;
+  }
+  
